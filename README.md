@@ -6,10 +6,14 @@ My project was working on a 2020 Kaggle competition, which involved identifying 
 My project uses a convolutional neural network architecture via transfer learning on a ResNet34 to identify the presence of/type of foliar disease in apple trees from images of leaves. I fine-tuned the pre-trained model to be able to distinguish differences in condition despite variations in depth, lighting, and symptoms. Improving the efficiency and accuracy of detecting crop diseases using an ML model can minimize the cost of resources that goes into environmental monitoring as well as economic loss and environmental impacts. 
 
 ## Quick Start
+https://www.kaggle.com/code/rnapark/apple  
 
 ## Video Links
 
 ## Evaluation
+
+Kaggle best score: 0.95428 using V29
+
 **Overall Accuracy:** 0.8704
 
 **Precision per class:** [0.89043478 0.34756098 0.93072289 0.9379085 ]
