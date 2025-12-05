@@ -19,3 +19,7 @@ My project uses a convolutional neural network architecture via transfer learnin
 **F1-score per class:** [0.93858845 0.44705882 0.96111975 0.95348837]
 
 **Macro ROC AUC:** 0.9581
+
+Training curves: ![alt text](https://github.com/rnapark/kaggle-plant-path2020/blob/1d8e7baf2a2d9cb691147f8c8b59082a6f116b69/docs/images/training_curve_eval.png)
+
+**Average Validation Accuracy across all folds:** 0.9232
