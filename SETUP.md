@@ -1,3 +1,15 @@
+These setup instructions are for verification of Kaggle performance. Any outputs/training logs/interpretations can be viewed directly through the notebooks in notebooks. 
+
+I've uploaded the pre-trained model weights to Duke Box, please download these, then create a dataset in Kaggle by uploading that folder of fold weights. 
+
+Copy this notebook that uses the downloaded model weights ______, and "add input" from your newly created dataset above. Submit to competition to see the score. 
+
+**Make sure the path to download the weights looks like ______ **
+
+
+
+
+
 To view the notebook/run in Co-Lab, download the .ipynb from this repository, upload to Co-Lab, and remove the first 4 cells that ask for Kaggle login/access Kaggle datasets. 
 
 In the function "initialize_model()", replace \
