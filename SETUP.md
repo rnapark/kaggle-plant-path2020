@@ -10,3 +10,5 @@ In the function "initialize_model()", replace \
 
 
 To view the notebook/run in Kaggle, copy the notebook directly via this public link: [https://www.kaggle.com/code/rnapark/apple]
+
+Model weights can be downloaded from the Box file: https://duke.box.com/s/63d5ypmqb5kyn5e83wm7c3utd9d359yf
