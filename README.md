@@ -12,7 +12,7 @@ https://www.kaggle.com/code/rnapark/apple
 
 ## Evaluation
 
-Kaggle best score: 0.95428 using V29
+**Kaggle best score**: 0.95428 using V29
 
 **Overall Accuracy:** 0.8704
 
@@ -27,3 +27,5 @@ Kaggle best score: 0.95428 using V29
 Training curves: ![alt text](https://github.com/rnapark/kaggle-plant-path2020/blob/1d8e7baf2a2d9cb691147f8c8b59082a6f116b69/docs/images/training_curve_eval.png)
 
 **Average Validation Accuracy across all folds:** 0.9232
+
+Qualitative inspection revealed that most misclassifications occurred for the multiple_diseases class, which is consistent with its lower Macro-F1 score across folds. Many errors involved images with occluded leaves, overlapping disease symptoms, or bad lighting. Often, ground truth labels were ambiguous even to humans, suggesting that some dataset noise contributes to lower performance on multiple_diseases. High-confidence correct predictions for healthy, rust, and scab classes typically displayed strong color contrast and clear lesion patterns, reflecting their consistently high F1-scores.
