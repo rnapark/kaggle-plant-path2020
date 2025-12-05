@@ -10,3 +10,12 @@ My project uses a convolutional neural network architecture via transfer learnin
 ## Video Links
 
 ## Evaluation
+**Overall Accuracy:** 0.8704
+
+**Precision per class:** [0.89043478 0.34756098 0.93072289 0.9379085 ]
+
+**Recall per class:** [0.99224806 0.62637363 0.99356913 0.96959459]
+
+**F1-score per class:** [0.93858845 0.44705882 0.96111975 0.95348837]
+
+**Macro ROC AUC:** 0.9581
