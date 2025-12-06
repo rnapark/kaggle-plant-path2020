@@ -1,26 +1,21 @@
-These setup instructions are for verification of Kaggle performance. Any outputs/training logs/interpretations can be viewed directly through the notebooks in notebooks. 
+*These setup instructions are for verification of Kaggle performance. Any outputs/training logs/interpretations can be viewed directly through the notebooks in notebooks.*
 
-I've uploaded the pre-trained model weights to Duke Box, please download these, then create a dataset in Kaggle by uploading that folder of fold weights. 
+## For lightweight notebook
+The "lightweight notebook" just downloads my pretrained model's fold weights and uses them to generate a submission.
 
-Copy this notebook that uses the downloaded model weights ______, and "add input" from your newly created dataset above. Submit to competition to see the score. 
+I've uploaded the pre-trained model weights to Duke Box here(https://duke.box.com/s/6b1enqvyv6enew6ocnso3n6bm73kwf8d), please download this folder, then create a dataset in Kaggle by uploading it. 
 
-**Make sure the path to download the weights looks like ______ **
+To create a dataset in Kaggle, go to >Datasets in the left options bar, select Create New Dataset, and upload the folder of fold weights you downloaded from the Box link, naming the folder `model_fold_weights` or update the notebook weight download to use a different path, as it is set to `torch.load(f"/kaggle/input/model-fold-weights/fold_{k}.pth"`.
+![alt text](https://github.com/rnapark/kaggle-plant-path2020/blob/8d7885e3b52db67c0df4f701be94dee059d7a765/docs/images/create_dataset.png)
 
+Copy this notebook that uses the downloaded model weights [https://www.kaggle.com/code/rnapark/lightweight-apple], and "add input" on the sidebar from your newly created dataset above, filtering for "Your Work" and "Datasets". Submit to competition to see the score. 
 
+![alt_text](https://github.com/rnapark/kaggle-plant-path2020/blob/8d7885e3b52db67c0df4f701be94dee059d7a765/docs/images/add_input.png)
+![alt text](https://github.com/rnapark/kaggle-plant-path2020/blob/8d7885e3b52db67c0df4f701be94dee059d7a765/docs/images/add_input_filter.png)
 
+## For the original notebook
+The original notebook contains all the details and technical components of my model,including the training loop and inference together. It should be sufficient just to view the notebook, as it contains all the training logs and code. 
 
-
-To view the notebook/run in Co-Lab, download the .ipynb from this repository, upload to Co-Lab, and remove the first 4 cells that ask for Kaggle login/access Kaggle datasets. 
-
-In the function "initialize_model()", replace \
-`model = models.resnet34()` \
-`# Construct the full path to the .pth file inside the downloaded directory` \
-`weights_file_path = os.path.join(rnapark_resnet34_b627a593_pth_path, 'resnet34-b627a593.pth')` \
-`state_dict = torch.load(weights_file_path, map_location="cpu")` \
-`model.load_state_dict(state_dict)` with 
-`model = models.resnet34(weights="DEFAULT")`
-
+The notebook can be found _____
 
 To view the notebook/run in Kaggle, copy the notebook directly via this public link: [https://www.kaggle.com/code/rnapark/apple]
-
-Model weights can be downloaded from the Box file: https://duke.box.com/s/63d5ypmqb5kyn5e83wm7c3utd9d359yf
