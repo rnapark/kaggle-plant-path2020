@@ -6,13 +6,18 @@ My project was working on a 2020 Kaggle competition, which involved identifying 
 My project uses a convolutional neural network architecture via transfer learning on a ResNet34 to identify the presence of/type of foliar disease in apple trees from images of leaves. I fine-tuned the pre-trained model to be able to distinguish differences in condition despite variations in depth, lighting, and symptoms. Improving the efficiency and accuracy of detecting crop diseases using an ML model can minimize the cost of resources that goes into environmental monitoring as well as economic loss and environmental impacts. 
 
 ## Quick Start
-https://www.kaggle.com/code/rnapark/apple  
+Please look at v29 of https://www.kaggle.com/code/rnapark/apple or notebooks/apple_final.ipynb to see the detailed implementation of my project.
+
+To run the project, I've created a "lightweight notebook" just downloads my pretrained model's fold weights and uses them to generate a submission. Please follow the instructions in SETUP.md. 
+
+Otherwise, to see the training logs and error/success visualizations, metric visualizations, reference notebooks/apple_final.ipynb. 
 
 ## Video Links
 
 ## Evaluation
 
 **Kaggle best score**: 0.95428 using V29
+![alt text](https://github.com/rnapark/kaggle-plant-path2020/blob/001325ba2cd9f48710e9043e6a2719ddc635331a/docs/images/kaggle_score.png)
 
 **Overall Accuracy:** 0.8704
 
@@ -24,7 +29,7 @@ https://www.kaggle.com/code/rnapark/apple
 
 **Macro ROC AUC:** 0.9581
 
-Training curves: ![alt text](https://github.com/rnapark/kaggle-plant-path2020/blob/1d8e7baf2a2d9cb691147f8c8b59082a6f116b69/docs/images/training_curve_eval.png)
+**Training curves**: ![alt text](https://github.com/rnapark/kaggle-plant-path2020/blob/1d8e7baf2a2d9cb691147f8c8b59082a6f116b69/docs/images/training_curve_eval.png)
 
 **Average Validation Accuracy across all folds:** 0.9232
 
