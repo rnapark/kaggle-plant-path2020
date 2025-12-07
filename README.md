@@ -8,7 +8,7 @@ My project uses a convolutional neural network architecture via transfer learnin
 ## Quick Start
 Please look at v29 of https://www.kaggle.com/code/rnapark/apple or notebooks/apple_final.ipynb to see the detailed implementation of my project.
 
-To run the project, I've created a "lightweight notebook" just downloads my pretrained model's fold weights and uses them to generate a submission. Please follow the instructions in SETUP.md. 
+To run the project, I've created a "lightweight notebook" where you can just download/upload my pretrained model's fold weights to generate a Kaggle submission. Please follow the detailed version of instructions in SETUP.md. 
 
 Otherwise, to see the training logs and error/success visualizations, metric visualizations, reference notebooks/apple_final.ipynb. 
 
