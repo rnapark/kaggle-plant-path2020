@@ -1,14 +1,15 @@
 # Plant Pathology: Identifying foliar diseases in apple trees
 
-My project was working on a 2020 Kaggle competition, which involved identifying the type of foliar diseases in apple trees from images of their leaves. 
+The goal of this project is to develop a machine learning model that accurately identifies and classifies foliar diseases in apple trees from images of their leaves. 
 
 ## What it does
-My project uses a convolutional neural network architecture via transfer learning on a ResNet34 to identify the presence of/type of foliar disease in apple trees from images of leaves. I fine-tuned the pre-trained model to be able to distinguish differences in condition despite variations in depth, lighting, and symptoms. Improving the efficiency and accuracy of detecting crop diseases using an ML model can minimize the cost of resources that goes into environmental monitoring as well as economic loss and environmental impacts. 
+
+This project was developed as part of a 2020 Kaggle competition, where the challenge was to detect different types of leaf diseases in apple trees. Accurate and efficient disease identification can significantly reduce resource expenditure, economic losses, and environmental impacts associated with crop diseases. My project uses a convolutional neural network architecture via transfer learning on a ResNet34 to identify the presence of/type of foliar disease in apple trees from images of leaves. I fine-tuned the pre-trained model to be able to distinguish differences in condition despite variations in depth, lighting, and symptoms. Improving the efficiency and accuracy of detecting crop diseases using an ML model can minimize the cost of resources that goes into environmental monitoring as well as economic loss and environmental impacts. 
 
 ## Quick Start
 Please look at v29 of https://www.kaggle.com/code/rnapark/apple or notebooks/apple_final.ipynb to see the detailed implementation of my project.
 
-To run the project, I've created a "lightweight notebook" where you can just download/upload my pretrained model's fold weights to generate a Kaggle submission. Please follow the detailed version of instructions in SETUP.md. 
+To run the project, I've created a "lightweight notebook" at https://www.kaggle.com/code/rnapark/lightweight-apple where you can just download/upload my pretrained model's fold weights to generate a Kaggle submission. Please follow the detailed version of instructions in SETUP.md. 
 
 Otherwise, to see the training logs and error/success visualizations, metric visualizations, reference notebooks/apple_final.ipynb. 
 
@@ -19,6 +20,8 @@ Otherwise, to see the training logs and error/success visualizations, metric vis
 **10 min technical walkthrough**: https://duke.box.com/s/6q216n42jjlvpx4eco5xp1rqffkkrxko 
 
 ## Evaluation
+
+*These metrics are based off the full version of the notebook(apple_final.ipynb) that does both training and inference within the notebook. Due to some inconsistencies I was not able to identify, the lightweight version of the notebook was only able to get a Kaggle score of 0.90, posted this concern on Ed post #207.*
 
 **Kaggle best score**: 0.95428 using V29
 ![alt text](https://github.com/rnapark/kaggle-plant-path2020/blob/001325ba2cd9f48710e9043e6a2719ddc635331a/docs/images/kaggle_score.png)
