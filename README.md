@@ -7,11 +7,11 @@ The goal of this project is to develop a machine learning model that accurately 
 This project was developed as part of a 2020 Kaggle competition, where the challenge was to detect different types of leaf diseases in apple trees. Accurate and efficient disease identification can significantly reduce resource expenditure, economic losses, and environmental impacts associated with crop diseases. My project uses a convolutional neural network architecture via transfer learning on a ResNet34 to identify the presence of/type of foliar disease in apple trees from images of leaves. I fine-tuned the pre-trained model to be able to distinguish differences in condition despite variations in depth, lighting, and symptoms. Improving the efficiency and accuracy of detecting crop diseases using an ML model can minimize the cost of resources that goes into environmental monitoring as well as economic loss and environmental impacts. 
 
 ## Quick Start
-Please look at v29 of https://www.kaggle.com/code/rnapark/apple or notebooks/apple_final.ipynb to see the detailed implementation of my project.
+Please look at v29 of https://www.kaggle.com/code/rnapark/apple or [notebooks/apple_final.ipynb](https://github.com/rnapark/kaggle-plant-path2020/blob/1482e791d8706b7c51a799245f8905afc4fb14f8/notebooks/apple_final.ipynb) to see the detailed implementation of my project, complete with training logs and visualizations.
 
 To run the project, I've created a "lightweight notebook" at https://www.kaggle.com/code/rnapark/lightweight-apple where you can just download/upload my pretrained model's fold weights to generate a Kaggle submission. Please follow the detailed version of instructions in SETUP.md. 
 
-Otherwise, to see the training logs and error/success visualizations, metric visualizations, reference notebooks/apple_final.ipynb. 
+Otherwise, to see the training logs and error/success visualizations, metric visualizations, reference [notebooks/apple_final.ipynb](https://github.com/rnapark/kaggle-plant-path2020/blob/1482e791d8706b7c51a799245f8905afc4fb14f8/notebooks/apple_final.ipynb). 
 
 ## Video Links
 
