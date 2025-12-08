@@ -14,6 +14,10 @@ Otherwise, to see the training logs and error/success visualizations, metric vis
 
 ## Video Links
 
+**5 min demo**: https://duke.box.com/s/cc62cj1jlzghh5m6d3dorz3rqy5a2k7u
+
+**10 min technical walkthrough**: https://duke.box.com/s/6q216n42jjlvpx4eco5xp1rqffkkrxko 
+
 ## Evaluation
 
 **Kaggle best score**: 0.95428 using V29
